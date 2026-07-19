@@ -54,6 +54,7 @@ def chunk_wikipedia(doc: dict) -> list[dict]:
                     "chunk_id":      build_chunk_id(doc_id, chunk_index),
                     "document_id":   doc_id,
                     "source_file":   doc["source_file"],
+                    "source_type":   source_type,
                     "chunk_index":   chunk_index,
                     # --- desired ---
                     "title":         doc["title"],
