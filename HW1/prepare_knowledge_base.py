@@ -14,10 +14,12 @@ import time
 from pathlib import Path
 
 HW1_DIR = Path(__file__).parent
+sys.path.insert(0, str(HW1_DIR))
 sys.path.insert(0, str(HW1_DIR / "scripts"))
 
+from config import RAW_DIR, PROCESSED_DIR
 from parse_all import run_parsing
-from chunk_documents import run_chunking
+from chunk_all import run_chunking
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -55,8 +57,8 @@ def main() -> None:
     print("    1. Parse raw source files  ->  normalized JSONL")
     print("    2. Chunk normalized docs   ->  chunks JSONL")
     print()
-    print(f"  Raw data  : {HW1_DIR / 'data' / 'raw'}")
-    print(f"  Output    : {HW1_DIR / 'data'}")
+    print(f"  Raw data  : {RAW_DIR}")
+    print(f"  Output    : {PROCESSED_DIR}")
 
     # ---------------------------------------------------------- step 1: parse
     section("Step 1 / 2  |  Parsing raw documents")

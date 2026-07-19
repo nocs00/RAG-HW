@@ -5,17 +5,16 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "parsers"))
+HW1_DIR = Path(__file__).parent.parent
+sys.path.insert(0, str(HW1_DIR))
+sys.path.insert(0, str(HW1_DIR / "parsers"))
 
+from config import RAW_DIR, PROCESSED_DIR, KNOWLEDGE_BASE_FILE
 from parse_txt import parse_txt
 from parse_md import parse_md
 from parse_csv import parse_csv
 from parse_pdf import parse_pdf
 from parse_mhtml import parse_mhtml
-
-RAW_DIR = Path(__file__).parent.parent / "data" / "raw"
-OUT_DIR = Path(__file__).parent.parent / "data" / "processed"
-OUT_FILE = OUT_DIR / "knowledge_base.jsonl"
 
 PARSERS = {
     ".txt":   parse_txt,
@@ -27,11 +26,8 @@ PARSERS = {
 
 
 def run_parsing(verbose: bool = True) -> dict:
-    """Parse all raw files and write knowledge_base.jsonl.
-
-    Returns a stats dict with counts broken down by format.
-    """
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    """Parse all raw files and write knowledge_base.jsonl. Returns stats dict."""
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
     all_records: list[dict] = []
     by_format: dict[str, int] = defaultdict(int)
@@ -39,7 +35,7 @@ def run_parsing(verbose: bool = True) -> dict:
     errors: list[str] = []
 
     raw_files = sorted(RAW_DIR.iterdir())
-    supported = [f for f in raw_files if f.suffix.lower() in PARSERS]
+    supported   = [f for f in raw_files if f.suffix.lower() in PARSERS]
     unsupported = [f for f in raw_files if f.suffix.lower() not in PARSERS]
 
     if verbose:
@@ -48,7 +44,7 @@ def run_parsing(verbose: bool = True) -> dict:
               f"({len(supported)} supported, {len(unsupported)} skipped)")
         print()
 
-    for filepath in sorted(RAW_DIR.iterdir()):
+    for filepath in raw_files:
         ext = filepath.suffix.lower()
         parser = PARSERS.get(ext)
         if parser is None:
@@ -72,22 +68,22 @@ def run_parsing(verbose: bool = True) -> dict:
             if verbose:
                 print(f"ERROR -- {exc}")
 
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
+    with open(KNOWLEDGE_BASE_FILE, "w", encoding="utf-8") as f:
         for record in all_records:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
     stats = {
         "total_files_processed": sum(by_format.values()),
-        "total_documents": len(all_records),
-        "by_format": dict(by_format),
-        "skipped": skipped,
-        "errors": errors,
-        "output_file": str(OUT_FILE),
+        "total_documents":       len(all_records),
+        "by_format":             dict(by_format),
+        "skipped":               skipped,
+        "errors":                errors,
+        "output_file":           str(KNOWLEDGE_BASE_FILE),
     }
 
     if verbose:
         print()
-        print(f"  Output        : {OUT_FILE}")
+        print(f"  Output        : {KNOWLEDGE_BASE_FILE}")
         print(f"  Documents     : {len(all_records)}")
         if by_format:
             print(f"  By format     : " + ", ".join(f"{k} x{v}" for k, v in sorted(by_format.items())))
