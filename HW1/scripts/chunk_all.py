@@ -9,7 +9,7 @@ HW1_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(HW1_DIR))
 sys.path.insert(0, str(HW1_DIR / "chunkers"))
 
-from config import CHUNK_SIZE, CHUNK_OVERLAP, KNOWLEDGE_BASE_FILE, CHUNKS_FILE
+from config import CHUNK_MIN, CHUNK_MAX, CHUNK_OVERLAP, KNOWLEDGE_BASE_FILE, CHUNKS_FILE
 from chunkers.chunk_wikipedia import chunk_wikipedia
 from chunkers.chunk_markdown import chunk_markdown
 from chunkers.chunk_pdf import chunk_pdf
@@ -35,8 +35,8 @@ def run_chunking(verbose: bool = True) -> dict:
 
     if verbose:
         print(f"  Input         : {KNOWLEDGE_BASE_FILE}")
-        print(f"  Chunk size    : {CHUNK_SIZE} chars  (spec: 500–1000)")
-        print(f"  Overlap       : {CHUNK_OVERLAP} chars  (spec: 100–200, {CHUNK_OVERLAP / CHUNK_SIZE * 100:.0f}%)")
+        print(f"  Chunk range   : {CHUNK_MIN}–{CHUNK_MAX} chars  (spec: 500–1000)")
+        print(f"  Overlap       : {CHUNK_OVERLAP} chars  (spec: 100–200, {CHUNK_OVERLAP / CHUNK_MAX * 100:.0f}%)")
         print()
 
     with (
@@ -83,7 +83,8 @@ def run_chunking(verbose: bool = True) -> dict:
         "avg_chunk_chars": round(avg_size, 1),
         "min_chunk_chars": min(all_chunk_sizes) if all_chunk_sizes else 0,
         "max_chunk_chars": max(all_chunk_sizes) if all_chunk_sizes else 0,
-        "chunk_size_limit": CHUNK_SIZE,
+        "chunk_min":       CHUNK_MIN,
+        "chunk_max":       CHUNK_MAX,
         "overlap_chars":   CHUNK_OVERLAP,
         "by_source_type":  dict(by_source_type),
         "errors":          errors,

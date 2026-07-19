@@ -24,7 +24,8 @@ CHUNKS_FILE        = PROCESSED_DIR / "chunks.jsonl"
 # Chunking  (spec: chunk_size 500–1000 chars, overlap 100–200 chars)
 # ---------------------------------------------------------------------------
 
-CHUNK_SIZE    = 800   # max characters per chunk
+CHUNK_MIN     = 500   # minimum characters per chunk
+CHUNK_MAX     = 1000  # maximum characters per chunk
 CHUNK_OVERLAP = 150   # overlap characters between consecutive chunks
 
 # ---------------------------------------------------------------------------
