@@ -28,10 +28,29 @@ _TIMESTAMP_HEADER = re.compile(
     re.MULTILINE | re.IGNORECASE,
 )
 _STANDALONE_CHAR = re.compile(r"^\s*[A-Za-z]\s*$", re.MULTILINE)
-_LEGAL_SECTION = re.compile(
-    r"(warranty|trademark|copyright|all rights reserved|"
-    r"©|\bpatent\b|legal notice|terms of use|privacy policy)",
-    re.IGNORECASE,
+
+# Safety-warning header lines — the escalation label itself, not the instruction text
+_WARNING_HEADER = re.compile(
+    r"^\s*(?:⚠\s*)?(?:WARNING|CAUTION|DANGER|NOTICE|CRASH HAZARD)[:\s]*$",
+    re.MULTILINE | re.IGNORECASE,
+)
+# Pure escalation phrases that add no informational value
+_INJURY_PHRASE = re.compile(
+    r"^[^\n]*(?:SERIOUS INJURY|OR DEATH|can result in death"
+    r"|may result in death|risk of death)[^\n]*$",
+    re.MULTILINE | re.IGNORECASE,
+)
+# Legal/warranty boilerplate lines
+_LEGAL_LINE = re.compile(
+    r"^[^\n]*(?:warranty|trademark|©|all rights reserved"
+    r"|terms of use|privacy policy|visit sram\.com)[^\n]*$",
+    re.MULTILINE | re.IGNORECASE,
+)
+# Battery disposal notices
+_BATTERY_DISPOSAL = re.compile(
+    r"^[^\n]*(?:Never dispose of batteries|dispose of.*battery"
+    r"|battery.*recycling|recycle.*battery)[^\n]*$",
+    re.MULTILINE | re.IGNORECASE,
 )
 
 
@@ -42,6 +61,21 @@ def _clean_pdf_text(text: str) -> str:
 
     # 2. Remove lines that are a single stray character (two-column PDF merge artifacts)
     text = _STANDALONE_CHAR.sub("", text)
+
+    # 3. Remove safety-warning escalation boilerplate (keep instructional text below)
+    text = _WARNING_HEADER.sub("", text)
+    text = _INJURY_PHRASE.sub("", text)
+    # Strip "CRASH HAZARD: " / "WARNING: " prefixes from inline instructional lines
+    text = re.sub(
+        r"(?:⚠\s*)?(?:WARNING|CAUTION|DANGER|NOTICE|CRASH HAZARD)\s*:\s*",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # 4. Remove legal/warranty/battery-disposal boilerplate
+    text = _LEGAL_LINE.sub("", text)
+    text = _BATTERY_DISPOSAL.sub("", text)
 
     # 3. Drop table-of-contents blocks: 5+ consecutive short lines (<60 chars, no sentence punctuation)
     lines = text.splitlines()
