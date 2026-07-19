@@ -33,28 +33,28 @@ def parse_pdf(filepath: Path) -> list[dict]:
         },
     )
 
-    records = []
+    pages_text: list[str] = []
     with pdfplumber.open(filepath) as pdf:
         total_pages = len(pdf.pages)
-        for i, page in enumerate(pdf.pages):
-            text = (page.extract_text() or "").strip()
-            if not text:
-                continue
-            records.append({
-                "document_id": f"{filepath.stem}_p{i + 1:04d}",
-                "source_file": filepath.name,
-                "source_type": "pdf",
-                "title": meta["title"],
-                "text": text,
-                "metadata": {
-                    "url": meta["url"],
-                    "publisher": meta["publisher"],
-                    "page_number": i + 1,
-                    "total_pages": total_pages,
-                    "topic_tags": meta["topic_tags"],
-                    "language": "en",
-                    "date_accessed": str(date.today()),
-                },
-            })
+        for page in pdf.pages:
+            t = (page.extract_text() or "").strip()
+            if t:
+                pages_text.append(t)
 
-    return records
+    full_text = "\n\n".join(pages_text)
+
+    return [{
+        "document_id": filepath.stem,
+        "source_file": filepath.name,
+        "source_type": "pdf",
+        "title": meta["title"],
+        "text": full_text,
+        "metadata": {
+            "url": meta["url"],
+            "publisher": meta["publisher"],
+            "total_pages": total_pages,
+            "topic_tags": meta["topic_tags"],
+            "language": "en",
+            "date_accessed": str(date.today()),
+        },
+    }]
