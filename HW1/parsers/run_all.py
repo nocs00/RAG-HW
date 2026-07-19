@@ -14,7 +14,7 @@ from parse_pdf import parse_pdf
 from parse_mhtml import parse_mhtml
 
 RAW_DIR = Path(__file__).parent.parent / "data" / "raw"
-OUT_DIR = Path(__file__).parent.parent / "data" / "normalized"
+OUT_DIR = Path(__file__).parent.parent / "data" / "processed"
 OUT_FILE = OUT_DIR / "knowledge_base.jsonl"
 
 PARSERS = {

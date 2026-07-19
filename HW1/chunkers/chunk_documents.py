@@ -1,7 +1,7 @@
 """
 Split normalized documents from knowledge_base.jsonl into overlapping token chunks.
 
-Output: HW1/data/chunks/chunks.jsonl
+Output: HW1/data/processed/chunks.jsonl
 """
 
 import json
@@ -18,8 +18,8 @@ CHUNK_SIZE = 512       # max tokens per chunk
 CHUNK_OVERLAP = 64     # token overlap between consecutive chunks
 ENCODING = "cl100k_base"
 
-IN_FILE = Path(__file__).parent.parent / "data" / "normalized" / "knowledge_base.jsonl"
-OUT_FILE = Path(__file__).parent.parent / "data" / "chunks" / "chunks.jsonl"
+IN_FILE = Path(__file__).parent.parent / "data" / "processed" / "knowledge_base.jsonl"
+OUT_FILE = Path(__file__).parent.parent / "data" / "processed" / "chunks.jsonl"
 
 # ---------------------------------------------------------------------------
 # Mappings
