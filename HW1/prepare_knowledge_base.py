@@ -13,12 +13,10 @@ import sys
 import time
 from pathlib import Path
 
-# Make parsers/ and chunkers/ importable regardless of working directory
 HW1_DIR = Path(__file__).parent
-sys.path.insert(0, str(HW1_DIR / "parsers"))
-sys.path.insert(0, str(HW1_DIR / "chunkers"))
+sys.path.insert(0, str(HW1_DIR / "scripts"))
 
-from run_all import run_parsing
+from parse_all import run_parsing
 from chunk_documents import run_chunking
 
 # ---------------------------------------------------------------------------
