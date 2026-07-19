@@ -1,5 +1,8 @@
 """
-Split normalized documents from knowledge_base.jsonl into overlapping token chunks.
+Split normalized documents from knowledge_base.jsonl into overlapping character chunks.
+
+Chunk size : 800 chars  (range 500–1000)
+Overlap    : 150 chars  (range 100–200)
 
 Output: HW1/data/processed/chunks.jsonl
 """
@@ -8,15 +11,12 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-import tiktoken
-
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
 
-CHUNK_SIZE = 512       # max tokens per chunk
-CHUNK_OVERLAP = 64     # token overlap between consecutive chunks
-ENCODING = "cl100k_base"
+CHUNK_SIZE = 800       # max characters per chunk  (500–1000 per spec)
+CHUNK_OVERLAP = 150    # character overlap between consecutive chunks  (100–200 per spec)
 
 IN_FILE = Path(__file__).parent.parent / "data" / "processed" / "knowledge_base.jsonl"
 OUT_FILE = Path(__file__).parent.parent / "data" / "processed" / "chunks.jsonl"
@@ -50,38 +50,72 @@ def build_chunk_id(document_id: str, index: int) -> str:
     return f"{document_id}_chunk_{index:04d}"
 
 
-def token_chunks(text: str, enc: tiktoken.Encoding) -> list[str]:
-    """Split text into token-bounded chunks with overlap, preserving paragraph boundaries."""
+def _split_long_text(text: str) -> list[str]:
+    """Hard-split a text that exceeds CHUNK_SIZE at word boundaries."""
+    words = text.split()
+    parts: list[str] = []
+    current = ""
+    for word in words:
+        if len(current) + len(word) + 1 > CHUNK_SIZE:
+            if current:
+                parts.append(current.strip())
+            current = current[-CHUNK_OVERLAP:].strip() + " " + word
+        else:
+            current = (current + " " + word).strip() if current else word
+    if current.strip():
+        parts.append(current.strip())
+    return parts
+
+
+def char_chunks(text: str) -> list[str]:
+    """Split text into character-bounded chunks with overlap, preserving paragraph boundaries.
+
+    Each chunk is self-contained and contains enough context to be read independently.
+    Strategy:
+      1. Split on double newlines (paragraphs) to avoid cutting mid-sentence.
+      2. Accumulate paragraphs until CHUNK_SIZE is reached, then emit.
+      3. Each new chunk starts with the last CHUNK_OVERLAP chars of the previous one.
+      4. Paragraphs exceeding CHUNK_SIZE are split by lines, then by words if needed.
+    """
     paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
 
-    chunks: list[str] = []
-    current_tokens: list[int] = []
-
+    # Flatten: break oversized paragraphs down to atomic units <= CHUNK_SIZE
+    units: list[str] = []
     for para in paragraphs:
-        para_tokens = enc.encode(para)
-
-        if len(para_tokens) > CHUNK_SIZE:
-            sub_lines = [l.strip() for l in para.split("\n") if l.strip()]
-            for line in sub_lines:
-                line_tokens = enc.encode(line)
-                if len(current_tokens) + len(line_tokens) > CHUNK_SIZE:
-                    if current_tokens:
-                        chunks.append(enc.decode(current_tokens))
-                    current_tokens = current_tokens[-CHUNK_OVERLAP:] + line_tokens
-                else:
-                    current_tokens += line_tokens
+        if len(para) <= CHUNK_SIZE:
+            units.append(para)
         else:
-            if len(current_tokens) + len(para_tokens) > CHUNK_SIZE:
-                if current_tokens:
-                    chunks.append(enc.decode(current_tokens))
-                current_tokens = current_tokens[-CHUNK_OVERLAP:] + para_tokens
-            else:
-                current_tokens += para_tokens
+            lines = [l.strip() for l in para.split("\n") if l.strip()]
+            for line in lines:
+                if len(line) <= CHUNK_SIZE:
+                    units.append(line)
+                else:
+                    units.extend(_split_long_text(line))
 
-    if current_tokens:
-        chunks.append(enc.decode(current_tokens))
+    chunks: list[str] = []
+    current = ""
 
-    return chunks
+    for unit in units:
+        separator = "\n\n" if "\n" not in unit else "\n"
+        candidate = (current + separator + unit).strip() if current else unit
+        if len(candidate) > CHUNK_SIZE:
+            if current:
+                chunks.append(current.strip())
+            current = current[-CHUNK_OVERLAP:].strip() + separator + unit
+        else:
+            current = candidate
+
+    if current.strip():
+        chunks.append(current.strip())
+
+    # Post-process: hard-split any chunk still exceeding CHUNK_SIZE
+    final: list[str] = []
+    for chunk in chunks:
+        if len(chunk) <= CHUNK_SIZE:
+            final.append(chunk)
+        else:
+            final.extend(_split_long_text(chunk))
+    return final
 
 
 # ---------------------------------------------------------------------------
@@ -90,11 +124,7 @@ def token_chunks(text: str, enc: tiktoken.Encoding) -> list[str]:
 
 
 def run_chunking(verbose: bool = True) -> dict:
-    """Chunk all documents from knowledge_base.jsonl and write chunks.jsonl.
-
-    Returns a stats dict.
-    """
-    enc = tiktoken.get_encoding(ENCODING)
+    """Chunk all documents from knowledge_base.jsonl and write chunks.jsonl."""
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     all_chunk_sizes: list[int] = []
@@ -102,9 +132,8 @@ def run_chunking(verbose: bool = True) -> dict:
 
     if verbose:
         print(f"  Input         : {IN_FILE}")
-        print(f"  Chunk size    : {CHUNK_SIZE} tokens")
-        print(f"  Overlap       : {CHUNK_OVERLAP} tokens  ({CHUNK_OVERLAP / CHUNK_SIZE * 100:.0f}%)")
-        print(f"  Encoding      : {ENCODING}")
+        print(f"  Chunk size    : {CHUNK_SIZE} chars  (spec: 500–1000)")
+        print(f"  Overlap       : {CHUNK_OVERLAP} chars  (spec: 100–200, {CHUNK_OVERLAP / CHUNK_SIZE * 100:.0f}%)")
         print()
 
     with (
@@ -117,10 +146,10 @@ def run_chunking(verbose: bool = True) -> dict:
             source_type = doc["source_type"]
             meta = doc.get("metadata", {})
 
-            text_chunks = token_chunks(doc["text"], enc)
+            text_chunks = char_chunks(doc["text"])
             n = len(text_chunks)
-            chunk_token_sizes = [len(enc.encode(c)) for c in text_chunks]
-            all_chunk_sizes.extend(chunk_token_sizes)
+            chunk_char_sizes = [len(c) for c in text_chunks]
+            all_chunk_sizes.extend(chunk_char_sizes)
             by_source_type[source_type] += n
 
             for i, chunk_text in enumerate(text_chunks):
@@ -146,8 +175,8 @@ def run_chunking(verbose: bool = True) -> dict:
                 fout.write(json.dumps(chunk, ensure_ascii=False) + "\n")
 
             if verbose:
-                avg = sum(chunk_token_sizes) / n if n else 0
-                print(f"  {doc_id:<45}  {n:>3} chunks  (avg {avg:.0f} tok)")
+                avg = sum(chunk_char_sizes) / n if n else 0
+                print(f"  {doc_id:<45}  {n:>3} chunks  (avg {avg:.0f} chars)")
 
     total = len(all_chunk_sizes)
     avg_size = sum(all_chunk_sizes) / total if total else 0
@@ -156,11 +185,11 @@ def run_chunking(verbose: bool = True) -> dict:
 
     stats = {
         "total_chunks": total,
-        "avg_chunk_tokens": round(avg_size, 1),
-        "min_chunk_tokens": min_size,
-        "max_chunk_tokens": max_size,
+        "avg_chunk_chars": round(avg_size, 1),
+        "min_chunk_chars": min_size,
+        "max_chunk_chars": max_size,
         "chunk_size_limit": CHUNK_SIZE,
-        "overlap_tokens": CHUNK_OVERLAP,
+        "overlap_chars": CHUNK_OVERLAP,
         "by_source_type": dict(by_source_type),
         "output_file": str(OUT_FILE),
     }
@@ -169,8 +198,8 @@ def run_chunking(verbose: bool = True) -> dict:
         print()
         print(f"  Output        : {OUT_FILE}")
         print(f"  Total chunks  : {total}")
-        print(f"  Avg size      : {avg_size:.1f} tokens")
-        print(f"  Min / Max     : {min_size} / {max_size} tokens")
+        print(f"  Avg size      : {avg_size:.1f} chars")
+        print(f"  Min / Max     : {min_size} / {max_size} chars")
         print(f"  By type       : " + ", ".join(f"{k} {v}" for k, v in sorted(by_source_type.items())))
 
     return stats

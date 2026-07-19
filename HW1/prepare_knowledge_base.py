@@ -91,12 +91,12 @@ def main() -> None:
 
     print()
     print("  [ Chunking ]")
-    summary_line("Chunk size (max)",      f"{chunk_stats['chunk_size_limit']} tokens")
-    summary_line("Overlap",               f"{chunk_stats['overlap_tokens']} tokens  "
-                                          f"({chunk_stats['overlap_tokens'] / chunk_stats['chunk_size_limit'] * 100:.0f}%)")
+    summary_line("Chunk size (max)",      f"{chunk_stats['chunk_size_limit']} chars  (spec: 500–1000)")
+    summary_line("Overlap",               f"{chunk_stats['overlap_chars']} chars  "
+                                          f"({chunk_stats['overlap_chars'] / chunk_stats['chunk_size_limit'] * 100:.0f}%, spec: 100–200)")
     summary_line("Total chunks",          chunk_stats["total_chunks"])
-    summary_line("Avg chunk size",        f"{chunk_stats['avg_chunk_tokens']} tokens")
-    summary_line("Min / Max chunk size",  f"{chunk_stats['min_chunk_tokens']} / {chunk_stats['max_chunk_tokens']} tokens")
+    summary_line("Avg chunk size",        f"{chunk_stats['avg_chunk_chars']} chars")
+    summary_line("Min / Max chunk size",  f"{chunk_stats['min_chunk_chars']} / {chunk_stats['max_chunk_chars']} chars")
     for stype, count in sorted(chunk_stats["by_source_type"].items()):
         summary_line(f"  {stype}", f"{count} chunks")
     summary_line("Time",                  f"{chunk_time:.2f}s")
