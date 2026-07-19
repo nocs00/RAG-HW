@@ -58,7 +58,7 @@ def parse_mhtml(filepath: Path) -> list[dict]:
     publisher = urlparse(meta["url"]).netloc.replace("www.", "") or "Unknown"
 
     return [{
-        "document_id": f"{filepath.stem}_0000",
+        "document_id": filepath.stem,
         "source_file": filepath.name,
         "source_type": "mhtml",
         "title": meta["title"],
