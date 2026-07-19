@@ -1,5 +1,6 @@
 """Parser for PDF files — manufacturer guides and technical documents."""
 
+import re
 from pathlib import Path
 from datetime import date
 
@@ -21,6 +22,58 @@ _PDF_META: dict[str, dict] = {
     },
 }
 
+# Patterns for noise removal
+_TIMESTAMP_HEADER = re.compile(
+    r"^\d{1,2}/\d{1,2}/\d{2,4},?\s+\d+:\d+\s*(?:AM|PM)\s+.+$",
+    re.MULTILINE | re.IGNORECASE,
+)
+_STANDALONE_CHAR = re.compile(r"^\s*[A-Za-z]\s*$", re.MULTILINE)
+_LEGAL_SECTION = re.compile(
+    r"(warranty|trademark|copyright|all rights reserved|"
+    r"©|\bpatent\b|legal notice|terms of use|privacy policy)",
+    re.IGNORECASE,
+)
+
+
+def _clean_pdf_text(text: str) -> str:
+    """Remove PDF extraction noise: timestamp page headers, column artifacts, boilerplate."""
+    # 1. Remove repeated timestamp page headers (e.g. "7/19/26, 10:01 PM Suspension | SRAM")
+    text = _TIMESTAMP_HEADER.sub("", text)
+
+    # 2. Remove lines that are a single stray character (two-column PDF merge artifacts)
+    text = _STANDALONE_CHAR.sub("", text)
+
+    # 3. Drop table-of-contents blocks: 5+ consecutive short lines (<60 chars, no sentence punctuation)
+    lines = text.splitlines()
+    cleaned: list[str] = []
+    toc_run = 0
+    toc_buffer: list[str] = []
+
+    for line in lines:
+        stripped = line.strip()
+        is_toc_like = stripped and len(stripped) < 60 and not re.search(r"[.!?]", stripped)
+        if is_toc_like:
+            toc_run += 1
+            toc_buffer.append(line)
+        else:
+            if toc_run >= 6:
+                pass  # discard the TOC block
+            else:
+                cleaned.extend(toc_buffer)
+            toc_buffer = []
+            toc_run = 0
+            cleaned.append(line)
+
+    if toc_run < 6:
+        cleaned.extend(toc_buffer)
+
+    text = "\n".join(cleaned)
+
+    # 4. Collapse 3+ consecutive blank lines to one blank line
+    text = re.sub(r"\n{3,}", "\n\n", text)
+
+    return text.strip()
+
 
 def parse_pdf(filepath: Path) -> list[dict]:
     meta = _PDF_META.get(
@@ -41,7 +94,7 @@ def parse_pdf(filepath: Path) -> list[dict]:
             if t:
                 pages_text.append(t)
 
-    full_text = "\n\n".join(pages_text)
+    full_text = _clean_pdf_text("\n\n".join(pages_text))
 
     return [{
         "document_id": filepath.stem,
