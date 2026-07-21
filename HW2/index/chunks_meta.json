@@ -1,0 +1,1925 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "chunks": [
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0000",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~1"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0001",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~2"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0002",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~22"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0003",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~23"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0004",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~25"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0005",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~27"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0006",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~28"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0007",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~30"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0008",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~31"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0009",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~33"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0010",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~35"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0011",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~36"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0012",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~38"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0013",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~40"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0014",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~41"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0015",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~43"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0016",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~45"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0017",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~46"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0018",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~48"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0019",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~50"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0020",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~51"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0021",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~53"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0022",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~55"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0023",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~56"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0024",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~58"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0025",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~75"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0026",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~77"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0027",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~78"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0028",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~80"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0029",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~81"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0030",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~83"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0031",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~85"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0032",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~87"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0033",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~88"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0034",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~90"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0035",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~92"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0036",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~93"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0037",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~95"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0038",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~96"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0039",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~98"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0040",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~100"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0041",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~101"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0042",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~103"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0043",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~105"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0044",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~106"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0045",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~108"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0046",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~110"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0047",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~111"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0048",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~113"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0049",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~114"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0050",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~116"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0051",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~118"
+    },
+    {
+      "chunk_id": "Suspension_SRAM_chunk_0052",
+      "document_id": "Suspension_SRAM",
+      "source_file": "Suspension_SRAM.pdf",
+      "source_type": "pdf",
+      "title": "SRAM Suspension Guide",
+      "section": "Page ~119"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0000",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0001",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0002",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "History"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0003",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "History"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0004",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0005",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0006",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0007",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0008",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0009",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0010",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Telescopic"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0011",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Alternatives"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0012",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Rear suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0013",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Rear suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0014",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Rear suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0015",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Rear suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0016",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Soft tail"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0017",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Soft tail"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0018",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Unified rear triangle"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0019",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Unified rear triangle"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0020",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Single pivot"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0021",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Single pivot"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0022",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Linkage driven single pivot ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0023",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Pivot height ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0024",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Pivot height ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0025",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Split pivot"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0026",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Split pivot"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0027",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Horst link"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0028",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Short link four-bar"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0029",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Virtual Pivot Point ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0030",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Living Link ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0031",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= DW-link ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0032",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Giant Maestro ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0033",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Switch link ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0034",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "= Trek Full Floater ="
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0035",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Equilink"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0036",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Floating drivetrain"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0037",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Independent Drivetrain"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0038",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Monolink"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0039",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Pendbox"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0040",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Seatpost suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0041",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Seatpost suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0042",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Seatpost suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0043",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Seatpost suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0044",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Seatpost suspension"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0045",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Suspension hub"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0046",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Terminology"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0047",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Travel"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0048",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Preload"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0049",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Rebound"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0050",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Sag"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0051",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Lockout"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0052",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Bob and squat"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0053",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Pedal feedback"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0054",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Compression damping"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0055",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Unsprung mass"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0056",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Unsprung mass"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0057",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Mountain bikes"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0058",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Mountain bikes"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0059",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Road bikes"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0060",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Recumbent bikes"
+    },
+    {
+      "chunk_id": "bicycle_suspension_wiki_chunk_0061",
+      "document_id": "bicycle_suspension_wiki",
+      "source_file": "bicycle_suspension_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Bicycle suspension",
+      "section": "Softride and Zipp"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0000",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 1"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0001",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 2"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0002",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 3"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0003",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 4"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0004",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 5"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0005",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 6"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0006",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 7"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0007",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 8"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0008",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 9"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0009",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 10"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0010",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 11"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0011",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 12"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0012",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 13"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0013",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 14"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0014",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 15"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0015",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 16"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0016",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 17"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0017",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 18"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0018",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 19"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0019",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 20"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0020",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 21"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0021",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 22"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0022",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 23"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0023",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 24"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0024",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 25"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0025",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 26"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0026",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 27"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0027",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 28"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0028",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 29"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0029",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 30"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0030",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 31"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0031",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 32"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0032",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 33"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0033",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 34"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0034",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 35"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0035",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 36"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0036",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 37"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0037",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 38"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0038",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 39"
+    },
+    {
+      "chunk_id": "doc_mtb_tracks_chunk_0039",
+      "document_id": "doc_mtb_tracks",
+      "source_file": "doc_mtb_tracks.csv",
+      "source_type": "csv",
+      "title": "New Zealand DOC Mountain Bike Tracks",
+      "section": "Trails 40"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0000",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0001",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0002",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0003",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0004",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0005",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0006",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0007",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0008",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0009",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0010",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0011",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "How to set up mountain bike suspension"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0012",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What about suspension tuning?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0013",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What are the effects of different suspension adjustments?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0014",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What are the effects of different suspension adjustments?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0015",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What are the effects of different suspension adjustments?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0016",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What about coil-sprung suspension?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0017",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What about coil-sprung suspension?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0018",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "What about coil-sprung suspension?"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0019",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "You may also like"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0020",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "You may also like"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0021",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0022",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0023",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0024",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0025",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "how_to_setup_suspension_chunk_0026",
+      "document_id": "how_to_setup_suspension",
+      "source_file": "how_to_setup_suspension.mhtml",
+      "source_type": "mhtml",
+      "title": "How to set up your mountain bike suspension for the best performance \u2013 sag, damping and other suspension tuning concepts explained | BikeRadar",
+      "section": "Most Read Articles"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0000",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0001",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0002",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0003",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0004",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Origins"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0005",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Origins"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0006",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Designs"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0007",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Gears"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0008",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Gears"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0009",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Geometry"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0010",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Suspension"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0011",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Suspension"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0012",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Disc brakes"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0013",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Disc brakes"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0014",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Wheel and tire design"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0015",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Wheel and tire design"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0016",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Wheel and tire design"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0017",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Wheel and tire design"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0018",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Wheel and tire design"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0019",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Tandems"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0020",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Adaptive mountain bike (aMTB)"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0021",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Vintage MTB Day"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0022",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Celebration"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0023",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "Significance and Impact"
+    },
+    {
+      "chunk_id": "mountain_bike_wiki_chunk_0024",
+      "document_id": "mountain_bike_wiki",
+      "source_file": "mountain_bike_wiki.txt",
+      "source_type": "wikipedia",
+      "title": "Mountain bike",
+      "section": "External links"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0000",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0001",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Why Maintenance Matters"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0002",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Post-Ride Routine (15 Minutes)"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0003",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Post-Ride Routine (15 Minutes)"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0004",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Post-Ride Routine (15 Minutes)"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0005",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Post-Ride Routine (15 Minutes)"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0006",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Weekly / Every 3\u20135 Rides"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0007",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Maintenance Schedule by Interval"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0008",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Key Lifehacks & Pro Tips"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0009",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Key Lifehacks & Pro Tips"
+    },
+    {
+      "chunk_id": "mtb_maintenance_guide_chunk_0010",
+      "document_id": "mtb_maintenance_guide",
+      "source_file": "mtb_maintenance_guide.md",
+      "source_type": "markdown",
+      "title": "Mountain Bike Maintenance: Tips, Intervals & Lifehacks",
+      "section": "Component Replacement Guidelines"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0000",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0001",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "MTB Suspension 101: SAG and Rebound"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0002",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "MTB Suspension 101: SAG and Rebound"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0003",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "How to Set Sag on a Mountain Bike"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0004",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "How to Adjust Rebound Damping"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0005",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "How to Adjust Rebound Damping"
+    },
+    {
+      "chunk_id": "mtb_suspension_setup_guide_chunk_0006",
+      "document_id": "mtb_suspension_setup_guide",
+      "source_file": "mtb_suspension_setup_guide.md",
+      "source_type": "markdown",
+      "title": "How to Set Up Mountain Bike Suspension",
+      "section": "When to Use Compression Damping"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0000",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~1"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0001",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~2"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0002",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~4"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0003",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~6"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0004",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~8"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0005",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~10"
+    },
+    {
+      "chunk_id": "trek_full_suspension_assembly_guide_chunk_0006",
+      "document_id": "trek_full_suspension_assembly_guide",
+      "source_file": "trek_full_suspension_assembly_guide.pdf",
+      "source_type": "pdf",
+      "title": "Trek Full Suspension Quick Assembly Guide",
+      "section": "Page ~11"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0000",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0001",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0002",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0003",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Introduction"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0004",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Product Compare Rack"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0005",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Product Compare Rack"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0006",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Product Compare Rack"
+    },
+    {
+      "chunk_id": "trek_suspension_guide_chunk_0007",
+      "document_id": "trek_suspension_guide",
+      "source_file": "trek_suspension_guide.mhtml",
+      "source_type": "mhtml",
+      "title": "",
+      "section": "Product Compare Rack"
+    }
+  ]
+}
