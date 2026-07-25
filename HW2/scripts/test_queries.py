@@ -66,6 +66,24 @@ TEST_QUERIES = [
         # Expected: mtb_suspension_setup_guide, how_to_setup_suspension, trek_suspension_guide
         "note": "Compression damping use case — should hit suspension setup guides and MHTML articles",
     },
+    {
+        "id": "q11",
+        "query": "How many days does it take to ride the Timber Trail in New Zealand?",
+        # Expected: doc_mtb_tracks
+        "note": "Trail factual lookup — 'days' vocabulary overlaps with maintenance guides; filter to doc_mtb_tracks should fix it",
+    },
+    {
+        "id": "q12",
+        "query": "What grease should I use when installing headset bearings?",
+        # Expected: Suspension_SRAM, trek_full_suspension_assembly_guide
+        "note": "Assembly grease spec — 'grease/lube' overlaps with maintenance guide; filter to PDF manuals should fix it",
+    },
+    {
+        "id": "q13",
+        "query": "Which New Zealand trails have difficulty rated as Easy?",
+        # Expected: doc_mtb_tracks (chunks with literal 'Difficulty: Easy' label)
+        "note": "Easy difficulty label lookup — semantic embeds 'easy' broadly; BM25 exact-matches the 'Difficulty: Easy' label in CSV chunks",
+    },
 ]
 
 if __name__ == "__main__":
