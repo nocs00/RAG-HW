@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "How do I set sag on my mountain bike fork?",
+    "expected_behavior": "Answer from KB with clear step-by-step procedure",
+    "answer": "To set sag on your mountain bike fork, follow these steps:\n\n1. Inflate the air spring in the fork to the recommended pressure for your weight (this can be found in the manufacturer's manual, on their website or printed on the back of one leg).\n2. Check any external compression-damping dials or levers are set fully open.\n3. Bounce on the bike to 'free up' the suspension and help balance the air pressure in the negative spring.\n4. Get a friend to hold the bike while you get into your normal standing position, holding this for about five seconds.\n5. Ensure that the rubber O-ring around the fork stanchion is pushed up against the wiper seal.\n6. Carefully dismount from the bike without disturbing the O-ring.\n\nThen, measure the distance (in millimetres) that the O-ring has moved up the stanchion, divide this by the fork's travel (e.g. 160mm), and multiply that by 100 to find the sag percentage.\n\n[chunk_id: how_to_setup_suspension_chunk_0003 | source_file: how_to_setup_suspension.mhtml | score: 5.47]\n[chunk_id: how_to_setup_suspension_chunk_0004 | source_file: how_to_setup_suspension.mhtml | score: 4.10]",
+    "retrieved_chunks_or_sources": "how_to_setup_suspension_chunk_0002, how_to_setup_suspension_chunk_0003, how_to_setup_suspension_chunk_0004",
+    "route_or_mode": "RAG",
+    "selected_route": "knowledge_base_workflow",
+    "tools_used": "search_knowledge_base",
+    "latency_ms": 21679
+  },
+  {
+    "id": 2,
+    "question": "How do I bleed my hydraulic disc brakes?",
+    "expected_behavior": "Answer from KB, retrieval required (not a single obvious keyword match)",
+    "answer": "I do not have enough information in the retrieved documents to answer this question. The context only discusses the general principles of mechanical and hydraulic disc brakes, but it does not provide specific instructions for bleeding hydraulic disc brakes.",
+    "retrieved_chunks_or_sources": "mountain_bike_wiki_chunk_0013, mountain_bike_wiki_chunk_0012, trek_full_suspension_assembly_guide_chunk_0002",
+    "route_or_mode": "RAG",
+    "selected_route": "knowledge_base_workflow",
+    "tools_used": "search_knowledge_base",
+    "latency_ms": 3195
+  },
+  {
+    "id": 3,
+    "question": "What is rebound damping and how do I adjust it on a RockShox shock?",
+    "expected_behavior": "Answer from KB, retrieval required",
+    "answer": "According to [chunk_id: Suspension_SRAM_chunk_0035 | source_file: Suspension_SRAM.pdf | score: 5.87], Rebound (R) Damping controls suspension rebound speed after compression.\n\nTo adjust the rebound damping, rotate the knob clockwise to increase rebound damping and decrease rebound speed, or counterclockwise to decrease rebound damping and increase rebound speed. [chunk_id: Suspension_SRAM_chunk_0035 | source_file: Suspension_SRAM.pdf | score: 5.87]\n\nNote that for specific starting settings, it's recommended to visit RockShox Trailhead.",
+    "retrieved_chunks_or_sources": "Suspension_SRAM_chunk_0037, Suspension_SRAM_chunk_0035, how_to_setup_suspension_chunk_0008",
+    "route_or_mode": "RAG",
+    "selected_route": "knowledge_base_workflow",
+    "tools_used": "search_knowledge_base",
+    "latency_ms": 4773
+  },
+  {
+    "id": 4,
+    "question": "Which New Zealand trails are rated beginner and suitable for easy rides?",
+    "expected_behavior": "Answer from KB, but retrieval may return a tangentially related (harder-trail) chunk",
+    "answer": "Could you please clarify your question? Are you asking about current/forecast weather and riding conditions, a specific part's manual or spec sheet, or a general how-to/maintenance question?",
+    "retrieved_chunks_or_sources": "",
+    "route_or_mode": "clarification",
+    "selected_route": "clarification",
+    "tools_used": "none",
+    "latency_ms": 1
+  },
+  {
+    "id": 5,
+    "question": "What's the recommended battery voltage and charging time for an e-MTB battery?",
+    "expected_behavior": "Say not enough information -- e-MTB battery specs are not in the KB",
+    "answer": "Could you please clarify your question? Are you asking about current/forecast weather and riding conditions, a specific part's manual or spec sheet, or a general how-to/maintenance question?",
+    "retrieved_chunks_or_sources": "",
+    "route_or_mode": "clarification",
+    "selected_route": "clarification",
+    "tools_used": "none",
+    "latency_ms": 1
+  },
+  {
+    "id": 6,
+    "question": "What tire pressure should I run on a fat bike in snow conditions?",
+    "expected_behavior": "Say not enough information -- fat-bike/snow tire pressure is not in the KB",
+    "answer": "Could you please clarify your question? Are you asking about current/forecast weather and riding conditions, a specific part's manual or spec sheet, or a general how-to/maintenance question?",
+    "retrieved_chunks_or_sources": "",
+    "route_or_mode": "clarification",
+    "selected_route": "clarification",
+    "tools_used": "none",
+    "latency_ms": 1
+  },
+  {
+    "id": 7,
+    "question": "Is it a good day to ride the trails in Queenstown, New Zealand today?",
+    "expected_behavior": "Use weather tool, return live forecast + riding-conditions note",
+    "answer": "Weather for Queenstown, New Zealand on 2026-09-03: Dense drizzle, high 14.9\u00b0C / low 6.8\u00b0C, precipitation 6.3mm, max wind 7.7km/h. Rain expected -- trails may be muddy/slippery, consider rescheduling.",
+    "retrieved_chunks_or_sources": "open-meteo:Queenstown, New Zealand",
+    "route_or_mode": "tool",
+    "selected_route": "weather_workflow",
+    "tools_used": "get_trail_weather",
+    "latency_ms": 533
+  },
+  {
+    "id": 8,
+    "question": "Where can I find the official service manual for a RockShox Pike Ultimate 2023 fork?",
+    "expected_behavior": "Use web-lookup tool, return manual link(s)",
+    "answer": "Here's what I found:\n- Pike Ultimate | FS-PIKE-ULT-C1 | RockShox | Service - SRAM: https://www.sram.com/en/service/models/fs-pike-ult-c1\n- Pike Ultimate | FS-PIKE-ULT-B4 | RockShox | Service - SRAM: https://www.sram.com/en/service/models/fs-pike-ult-b4\n- Pike Ultimate - RockShox: https://trailhead.rockshox.com/en/product/34T00174071",
+    "retrieved_chunks_or_sources": "https://www.sram.com/en/service/models/fs-pike-ult-c1, https://www.sram.com/en/service/models/fs-pike-ult-b4, https://trailhead.rockshox.com/en/product/34T00174071",
+    "route_or_mode": "tool",
+    "selected_route": "part_manual_workflow",
+    "tools_used": "search_part_manual",
+    "latency_ms": 2030
+  },
+  {
+    "id": 9,
+    "question": "Is my bike ready to ride in the rain today or does it need maintenance first?",
+    "expected_behavior": "Ambiguous -- could plausibly route to weather or maintenance KB; system should pick one deterministically, not crash or stall",
+    "answer": "I couldn't get the weather: Could not resolve location: 'Is my bike ready to ride in the rain today or does it need maintenance first'. Could you confirm the location and try again?",
+    "retrieved_chunks_or_sources": "{\"error\": \"Could not resolve location: 'Is my bike ready to ride in the rain today or does it need maintenance first'\"}",
+    "route_or_mode": "tool",
+    "selected_route": "weather_workflow",
+    "tools_used": "get_trail_weather",
+    "latency_ms": 202
+  },
+  {
+    "id": 10,
+    "question": "Tell me something interesting about mountain biking.",
+    "expected_behavior": "Ask for clarification -- question matches no known route",
+    "answer": "Could you please clarify your question? Are you asking about current/forecast weather and riding conditions, a specific part's manual or spec sheet, or a general how-to/maintenance question?",
+    "retrieved_chunks_or_sources": "",
+    "route_or_mode": "clarification",
+    "selected_route": "clarification",
+    "tools_used": "none",
+    "latency_ms": 0
+  }
+]
